@@ -1,0 +1,3058 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/mingw32-make.exe.com"
+    found: "C:/clion/bin/mingw/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/cc.com"
+      - "C:/clion/bin/mingw/bin/cc.exe"
+      - "C:/clion/bin/mingw/bin/cc"
+      - "C:/clion/bin/mingw/bin/gcc.com"
+    found: "C:/clion/bin/mingw/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/"
+    found: "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/clion/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/ar.com"
+    found: "C:/clion/bin/mingw/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/ranlib.com"
+    found: "C:/clion/bin/mingw/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/strip.com"
+    found: "C:/clion/bin/mingw/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/ld.com"
+    found: "C:/clion/bin/mingw/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/nm.com"
+    found: "C:/clion/bin/mingw/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/objdump.com"
+    found: "C:/clion/bin/mingw/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/objcopy.com"
+    found: "C:/clion/bin/mingw/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/readelf.com"
+    found: "C:/clion/bin/mingw/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/dlltool.com"
+    found: "C:/clion/bin/mingw/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/addr2line.com"
+    found: "C:/clion/bin/mingw/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/tapi.com"
+      - "C:/clion/bin/mingw/bin/tapi.exe"
+      - "C:/clion/bin/mingw/bin/tapi"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Windows/CCM/tapi.com"
+      - "C:/Windows/CCM/tapi.exe"
+      - "C:/Windows/CCM/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/clion/bin/ninja/win/x64/tapi.com"
+      - "C:/clion/bin/ninja/win/x64/tapi.exe"
+      - "C:/clion/bin/ninja/win/x64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.1.com"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.1.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Windows/CCM/gcc-ar-13.1.com"
+      - "C:/Windows/CCM/gcc-ar-13.1.exe"
+      - "C:/Windows/CCM/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.1.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.1.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.1"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Windows/CCM/gcc-ar-13.com"
+      - "C:/Windows/CCM/gcc-ar-13.exe"
+      - "C:/Windows/CCM/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13"
+      - "C:/clion/bin/mingw/bin/gcc-ar13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ar13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Windows/CCM/gcc-ar13.com"
+      - "C:/Windows/CCM/gcc-ar13.exe"
+      - "C:/Windows/CCM/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/msys64/ucrt64/bin/gcc-ar13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar13"
+      - "C:/clion/bin/mingw/bin/gcc-ar.com"
+    found: "C:/clion/bin/mingw/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.1.com"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.1.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Windows/CCM/gcc-ranlib-13.1.com"
+      - "C:/Windows/CCM/gcc-ranlib-13.1.exe"
+      - "C:/Windows/CCM/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.1.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.1"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Windows/CCM/gcc-ranlib-13.com"
+      - "C:/Windows/CCM/gcc-ranlib-13.exe"
+      - "C:/Windows/CCM/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Windows/CCM/gcc-ranlib13.com"
+      - "C:/Windows/CCM/gcc-ranlib13.exe"
+      - "C:/Windows/CCM/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib13"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib.com"
+    found: "C:/clion/bin/mingw/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/c++.com"
+      - "C:/clion/bin/mingw/bin/c++.exe"
+      - "C:/clion/bin/mingw/bin/c++"
+      - "C:/clion/bin/mingw/bin/g++.com"
+    found: "C:/clion/bin/mingw/bin/g++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/"
+    found: "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/clion/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.1.com"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.1.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/Windows/CCM/gcc-ar-13.1.com"
+      - "C:/Windows/CCM/gcc-ar-13.1.exe"
+      - "C:/Windows/CCM/gcc-ar-13.1"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.1"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.1.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.1.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.1"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/Windows/CCM/gcc-ar-13.com"
+      - "C:/Windows/CCM/gcc-ar-13.exe"
+      - "C:/Windows/CCM/gcc-ar-13"
+      - "C:/Program Files/dotnet/gcc-ar-13.com"
+      - "C:/Program Files/dotnet/gcc-ar-13.exe"
+      - "C:/Program Files/dotnet/gcc-ar-13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar-13"
+      - "C:/clion/bin/mingw/bin/gcc-ar13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ar13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/Windows/CCM/gcc-ar13.com"
+      - "C:/Windows/CCM/gcc-ar13.exe"
+      - "C:/Windows/CCM/gcc-ar13"
+      - "C:/Program Files/dotnet/gcc-ar13.com"
+      - "C:/Program Files/dotnet/gcc-ar13.exe"
+      - "C:/Program Files/dotnet/gcc-ar13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/msys64/ucrt64/bin/gcc-ar13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ar13"
+      - "C:/clion/bin/mingw/bin/gcc-ar.com"
+    found: "C:/clion/bin/mingw/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.1.com"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.1.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/Windows/CCM/gcc-ranlib-13.1.com"
+      - "C:/Windows/CCM/gcc-ranlib-13.1.exe"
+      - "C:/Windows/CCM/gcc-ranlib-13.1"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.1"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.1.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.1"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/Windows/CCM/gcc-ranlib-13.com"
+      - "C:/Windows/CCM/gcc-ranlib-13.exe"
+      - "C:/Windows/CCM/gcc-ranlib-13"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib-13"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib13.com"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib13.exe"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/Windows/CCM/gcc-ranlib13.com"
+      - "C:/Windows/CCM/gcc-ranlib13.exe"
+      - "C:/Windows/CCM/gcc-ranlib13"
+      - "C:/Program Files/dotnet/gcc-ranlib13.com"
+      - "C:/Program Files/dotnet/gcc-ranlib13.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib13"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib13"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib13.com"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib13.exe"
+      - "C:/clion/bin/ninja/win/x64/gcc-ranlib13"
+      - "C:/clion/bin/mingw/bin/gcc-ranlib.com"
+    found: "C:/clion/bin/mingw/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/clion/bin/cmake/win/x64/bin/"
+      - "C:/clion/bin/cmake/win/x64/sbin/"
+      - "C:/clion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/untitled/bin/"
+      - "C:/Program Files (x86)/untitled/sbin/"
+      - "C:/Program Files (x86)/untitled/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/windres.com"
+    found: "C:/clion/bin/mingw/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/clion/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/untitled"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og"
+      binary: "C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og'
+        
+        Run Build Command(s): C:/clion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e418b/fast
+        C:/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e418b.dir\\build.make CMakeFiles/cmTC_e418b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og'
+        Building C object CMakeFiles/cmTC_e418b.dir/CMakeCCompilerABI.c.obj
+        C:\\clion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj -c C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e418b.dir\\'
+         C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e418b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cceAnXhB.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e418b.dir\\'
+         as -v -o CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cceAnXhB.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../lib/gcc/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e418b.exe
+        C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e418b.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../lib/gcc/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e418b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e418b.'
+         C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e418b.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e418b.dir/objects.a --no-whole-archive --out-implib libcmTC_e418b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        C:\\clion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_e418b.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e418b.dir/objects.a --no-whole-archive --out-implib libcmTC_e418b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e418b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e418b.'
+        C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_e418b.dir/objects.a
+        C:\\clion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_e418b.dir/objects.a @CMakeFiles\\cmTC_e418b.dir\\objects1.rsp
+        C:\\clion\\bin\\mingw\\bin\\gcc.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_e418b.dir/objects.a -Wl,--no-whole-archive -o cmTC_e418b.exe -Wl,--out-implib,libcmTC_e418b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/clion/bin/mingw/include]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/clion/bin/mingw/include;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/clion/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/clion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e418b/fast]
+        ignore line: [C:/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e418b.dir\\build.make CMakeFiles/cmTC_e418b.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6575og']
+        ignore line: [Building C object CMakeFiles/cmTC_e418b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\clion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj -c C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e418b.dir\\']
+        ignore line: [ C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_e418b.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cceAnXhB.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e418b.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cceAnXhB.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_e418b.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e418b.exe]
+        ignore line: [C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e418b.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e418b.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_e418b.']
+        link line: [ C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_e418b.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e418b.dir/objects.a --no-whole-archive --out-implib libcmTC_e418b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_e418b.exe] ==> ignore
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_e418b.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_e418b.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [C:\\clion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_e418b.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_e418b.dir/objects.a --no-whole-archive --out-implib libcmTC_e418b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        linker tool for 'C': C:/clion/bin/mingw/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc] ==> [C:/clion/bin/mingw/lib/gcc]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/clion/bin/mingw/lib]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/clion/bin/mingw/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/clion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;C:/clion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/clion/bin/mingw/lib/gcc;C:/clion/bin/mingw/x86_64-w64-mingw32/lib;C:/clion/bin/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/clion/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty"
+      binary: "C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty'
+        
+        Run Build Command(s): C:/clion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a9553/fast
+        C:/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a9553.dir\\build.make CMakeFiles/cmTC_a9553.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty'
+        Building CXX object CMakeFiles/cmTC_a9553.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\clion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a9553.dir\\'
+         C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a9553.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cctP1keL.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a9553.dir\\'
+         as -v -o CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cctP1keL.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../lib/gcc/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a9553.exe
+        C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a9553.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/clion/bin/mingw/bin/../lib/gcc/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a9553.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a9553.'
+         C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_a9553.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a9553.dir/objects.a --no-whole-archive --out-implib libcmTC_a9553.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        C:\\clion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_a9553.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a9553.dir/objects.a --no-whole-archive --out-implib libcmTC_a9553.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a9553.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a9553.'
+        C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_a9553.dir/objects.a
+        C:\\clion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_a9553.dir/objects.a @CMakeFiles\\cmTC_a9553.dir\\objects1.rsp
+        C:\\clion\\bin\\mingw\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_a9553.dir/objects.a -Wl,--no-whole-archive -o cmTC_a9553.exe -Wl,--out-implib,libcmTC_a9553.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/clion/bin/mingw/include]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/clion/bin/mingw/include;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/clion/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/clion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a9553/fast]
+        ignore line: [C:/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a9553.dir\\build.make CMakeFiles/cmTC_a9553.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xduaty']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a9553.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\clion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a9553.dir\\']
+        ignore line: [ C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\clion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_a9553.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cctP1keL.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a9553.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MICHAE~1.ALL\\AppData\\Local\\Temp\\cctP1keL.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_a9553.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a9553.exe]
+        ignore line: [C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_a9553.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\clion\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a9553.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_a9553.']
+        link line: [ C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_a9553.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a9553.dir/objects.a --no-whole-archive --out-implib libcmTC_a9553.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [C:/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_a9553.exe] ==> ignore
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_a9553.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a9553.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [C:\\clion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_a9553.exe C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/clion/bin/mingw/bin/../lib/gcc -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_a9553.dir/objects.a --no-whole-archive --out-implib libcmTC_a9553.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        linker tool for 'CXX': C:/clion/bin/mingw/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc] ==> [C:/clion/bin/mingw/lib/gcc]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/clion/bin/mingw/lib]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/clion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/clion/bin/mingw/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/clion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;C:/clion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [C:/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/clion/bin/mingw/lib/gcc;C:/clion/bin/mingw/x86_64-w64-mingw32/lib;C:/clion/bin/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/clion/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake_modules/FindSDL2.cmake:81 (FIND_PATH)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "path"
+    variable: "SDL2_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL.h"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/include/SDL2/"
+      - "C:/clion/bin/mingw/bin/include/"
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/include/SDL2/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/include/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/include/SDL2/"
+      - "C:/Windows/System32/include/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/include/SDL2/"
+      - "C:/Windows/include/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/include/SDL2/"
+      - "C:/Windows/System32/wbem/include/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/SDL2/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/include/SDL2/"
+      - "C:/Windows/System32/OpenSSH/include/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/include/SDL2/"
+      - "C:/Windows/CCM/include/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/include/SDL2/"
+      - "C:/Program Files/dotnet/include/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/include/SDL2/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/include/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/include/SDL2/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/include/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/include/SDL2/"
+      - "C:/msys64/ucrt64/bin/include/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/include/SDL2/"
+      - "C:/clion/bin/ninja/win/x64/include/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "C:/Program Files/include/include/SDL2/"
+      - "C:/Program Files/include/include/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/include/SDL2/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/include/SDL2/"
+      - "C:/Program Files (x86)/include/include/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/include/SDL2/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/clion/bin/cmake/win/x64/include/include/SDL2/"
+      - "C:/clion/bin/cmake/win/x64/include/include/"
+      - "C:/clion/bin/cmake/win/x64/include/"
+      - "C:/clion/bin/cmake/win/x64/include/SDL2/"
+      - "C:/clion/bin/cmake/win/x64/include/"
+      - "C:/clion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/untitled/include/include/SDL2/"
+      - "C:/Program Files (x86)/untitled/include/include/"
+      - "C:/Program Files (x86)/untitled/include/"
+      - "C:/Program Files (x86)/untitled/include/SDL2/"
+      - "C:/Program Files (x86)/untitled/include/"
+      - "C:/Program Files (x86)/untitled/"
+      - "C:/Users/michael.allan/Library/Frameworks/include/SDL2/"
+      - "C:/Users/michael.allan/Library/Frameworks/include/"
+      - "C:/Users/michael.allan/Library/Frameworks/"
+      - "/Library/Frameworks/include/SDL2/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/"
+      - "/usr/local/include/SDL2/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/SDL2/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/sw/include/SDL2/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/SDL2/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/opt/csw/include/SDL2/"
+      - "/opt/csw/include/"
+      - "/opt/csw/"
+      - "/opt/include/SDL2/"
+      - "/opt/include/"
+      - "/opt/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/include/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/include/SDL2/SDL.h"
+      - "C:/clion/bin/mingw/bin/include/SDL.h"
+      - "C:/clion/bin/mingw/bin/SDL.h"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/include/SDL.h"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/SDL.h"
+      - "C:/Windows/System32/include/SDL2/SDL.h"
+      - "C:/Windows/System32/include/SDL.h"
+      - "C:/Windows/System32/SDL.h"
+      - "C:/Windows/include/SDL2/SDL.h"
+      - "C:/Windows/include/SDL.h"
+      - "C:/Windows/SDL.h"
+      - "C:/Windows/System32/wbem/include/SDL2/SDL.h"
+      - "C:/Windows/System32/wbem/include/SDL.h"
+      - "C:/Windows/System32/wbem/SDL.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/SDL2/SDL.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/include/SDL.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SDL.h"
+      - "C:/Windows/System32/OpenSSH/include/SDL2/SDL.h"
+      - "C:/Windows/System32/OpenSSH/include/SDL.h"
+      - "C:/Windows/System32/OpenSSH/SDL.h"
+      - "C:/Windows/CCM/include/SDL2/SDL.h"
+      - "C:/Windows/CCM/include/SDL.h"
+      - "C:/Windows/CCM/SDL.h"
+      - "C:/Program Files/dotnet/include/SDL2/SDL.h"
+      - "C:/Program Files/dotnet/include/SDL.h"
+      - "C:/Program Files/dotnet/SDL.h"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/include/SDL2/SDL.h"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/include/SDL.h"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/SDL.h"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/include/SDL2/SDL.h"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/include/SDL.h"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/SDL.h"
+      - "C:/msys64/ucrt64/bin/include/SDL2/SDL.h"
+      - "C:/msys64/ucrt64/bin/include/SDL.h"
+      - "C:/msys64/ucrt64/bin/SDL.h"
+      - "C:/clion/bin/ninja/win/x64/include/SDL2/SDL.h"
+      - "C:/clion/bin/ninja/win/x64/include/SDL.h"
+      - "C:/clion/bin/ninja/win/x64/SDL.h"
+      - "C:/Program Files/include/include/SDL2/SDL.h"
+      - "C:/Program Files/include/include/SDL.h"
+      - "C:/Program Files/include/SDL.h"
+      - "C:/Program Files/include/SDL2/SDL.h"
+      - "C:/Program Files/include/SDL.h"
+      - "C:/Program Files/SDL.h"
+      - "C:/Program Files (x86)/include/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/include/include/SDL.h"
+      - "C:/Program Files (x86)/include/SDL.h"
+      - "C:/Program Files (x86)/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/include/SDL.h"
+      - "C:/Program Files (x86)/SDL.h"
+      - "C:/clion/bin/cmake/win/x64/include/include/SDL2/SDL.h"
+      - "C:/clion/bin/cmake/win/x64/include/include/SDL.h"
+      - "C:/clion/bin/cmake/win/x64/include/SDL.h"
+      - "C:/clion/bin/cmake/win/x64/include/SDL2/SDL.h"
+      - "C:/clion/bin/cmake/win/x64/include/SDL.h"
+      - "C:/clion/bin/cmake/win/x64/SDL.h"
+      - "C:/Program Files (x86)/untitled/include/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/untitled/include/include/SDL.h"
+      - "C:/Program Files (x86)/untitled/include/SDL.h"
+      - "C:/Program Files (x86)/untitled/include/SDL2/SDL.h"
+      - "C:/Program Files (x86)/untitled/include/SDL.h"
+      - "C:/Program Files (x86)/untitled/SDL.h"
+      - "C:/Users/michael.allan/Library/Frameworks/include/SDL2/SDL.h"
+      - "C:/Users/michael.allan/Library/Frameworks/include/SDL.h"
+      - "C:/Users/michael.allan/Library/Frameworks/SDL.h"
+      - "/Library/Frameworks/include/SDL2/SDL.h"
+      - "/Library/Frameworks/include/SDL.h"
+      - "/Library/Frameworks/SDL.h"
+      - "/usr/local/include/SDL2/SDL.h"
+      - "/usr/local/include/SDL.h"
+      - "/usr/local/SDL.h"
+      - "/usr/include/SDL2/SDL.h"
+      - "/usr/include/SDL.h"
+      - "/usr/SDL.h"
+      - "/sw/include/SDL2/SDL.h"
+      - "/sw/include/SDL.h"
+      - "/sw/SDL.h"
+      - "/opt/local/include/SDL2/SDL.h"
+      - "/opt/local/include/SDL.h"
+      - "/opt/local/SDL.h"
+      - "/opt/csw/include/SDL2/SDL.h"
+      - "/opt/csw/include/SDL.h"
+      - "/opt/csw/SDL.h"
+      - "/opt/include/SDL2/SDL.h"
+      - "/opt/include/SDL.h"
+      - "/opt/SDL.h"
+    found: "C:/SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/clion/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/untitled"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake_modules/FindSDL2.cmake:94 (FIND_LIBRARY)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "SDL2_LIBRARY_TEMP"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/lib64/"
+      - "C:/clion/bin/mingw/bin/lib/x64/"
+      - "C:/clion/bin/mingw/bin/lib/"
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/x64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/x64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/x64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/x64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/x64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/x64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/lib64/"
+      - "C:/Windows/CCM/lib/x64/"
+      - "C:/Windows/CCM/lib/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/x64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/lib64/"
+      - "C:/msys64/ucrt64/bin/lib/x64/"
+      - "C:/msys64/ucrt64/bin/lib/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/lib64/"
+      - "C:/clion/bin/ninja/win/x64/lib/x64/"
+      - "C:/clion/bin/ninja/win/x64/lib/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/x64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/x64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/x64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/"
+      - "C:/Program Files (x86)/untitled/bin/lib64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/x64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/"
+      - "C:/Program Files (x86)/untitled/bin/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/"
+      - "C:/clion/bin/cmake/win/x64/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/x64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/x64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/"
+      - "C:/Users/michael.allan/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/x64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/x64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/x64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/x64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/x64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/x64/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib64/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/x64/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/lib64/"
+      - "C:/clion/bin/mingw/bin/lib/x64/"
+      - "C:/clion/bin/mingw/bin/lib/"
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/x64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/x64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/x64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/x64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/x64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/x64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/lib64/"
+      - "C:/Windows/CCM/lib/x64/"
+      - "C:/Windows/CCM/lib/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/x64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/lib64/"
+      - "C:/msys64/ucrt64/bin/lib/x64/"
+      - "C:/msys64/ucrt64/bin/lib/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/lib64/"
+      - "C:/clion/bin/ninja/win/x64/lib/x64/"
+      - "C:/clion/bin/ninja/win/x64/lib/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/x64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/x64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/x64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/"
+      - "C:/Program Files (x86)/untitled/bin/lib64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/x64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/"
+      - "C:/Program Files (x86)/untitled/bin/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/"
+      - "C:/clion/bin/cmake/win/x64/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/x64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/x64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/"
+      - "C:/Users/michael.allan/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/x64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/x64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/x64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/x64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/x64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/x64/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib64/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/x64/"
+    found: "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/libSDL2.dll.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/clion/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/untitled/bin"
+        - "C:/clion/bin/cmake/win/x64/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake_modules/FindSDL2.cmake:108 (FIND_LIBRARY)"
+      - "CMakeLists.txt:9 (find_package)"
+    mode: "library"
+    variable: "SDL2MAIN_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SDL2main"
+    candidate_directories:
+      - "C:/clion/bin/mingw/bin/lib64/"
+      - "C:/clion/bin/mingw/bin/lib/x64/"
+      - "C:/clion/bin/mingw/bin/lib/"
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/x64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/x64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/x64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/x64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/x64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/x64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/lib64/"
+      - "C:/Windows/CCM/lib/x64/"
+      - "C:/Windows/CCM/lib/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/x64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/lib64/"
+      - "C:/msys64/ucrt64/bin/lib/x64/"
+      - "C:/msys64/ucrt64/bin/lib/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/lib64/"
+      - "C:/clion/bin/ninja/win/x64/lib/x64/"
+      - "C:/clion/bin/ninja/win/x64/lib/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/x64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/x64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/x64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/"
+      - "C:/Program Files (x86)/untitled/bin/lib64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/x64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/"
+      - "C:/Program Files (x86)/untitled/bin/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/"
+      - "C:/clion/bin/cmake/win/x64/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/x64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/x64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/"
+      - "C:/Users/michael.allan/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/x64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/x64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/x64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/x64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/x64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/x64/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib64/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/x64/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/"
+    searched_directories:
+      - "C:/clion/bin/mingw/bin/lib64/"
+      - "C:/clion/bin/mingw/bin/lib/x64/"
+      - "C:/clion/bin/mingw/bin/lib/"
+      - "C:/clion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/x64/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lib/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Windows/System32/lib64/"
+      - "C:/Windows/System32/lib/x64/"
+      - "C:/Windows/System32/lib/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/lib64/"
+      - "C:/Windows/lib/x64/"
+      - "C:/Windows/lib/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/lib64/"
+      - "C:/Windows/System32/wbem/lib/x64/"
+      - "C:/Windows/System32/wbem/lib/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/x64/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/lib64/"
+      - "C:/Windows/System32/OpenSSH/lib/x64/"
+      - "C:/Windows/System32/OpenSSH/lib/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Windows/CCM/lib64/"
+      - "C:/Windows/CCM/lib/x64/"
+      - "C:/Windows/CCM/lib/"
+      - "C:/Windows/CCM/"
+      - "C:/Program Files/dotnet/lib64/"
+      - "C:/Program Files/dotnet/lib/x64/"
+      - "C:/Program Files/dotnet/lib/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/x64/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/lib/"
+      - "C:/Users/michael.allan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/lib64/"
+      - "C:/msys64/ucrt64/bin/lib/x64/"
+      - "C:/msys64/ucrt64/bin/lib/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/clion/bin/ninja/win/x64/lib64/"
+      - "C:/clion/bin/ninja/win/x64/lib/x64/"
+      - "C:/clion/bin/ninja/win/x64/lib/"
+      - "C:/clion/bin/ninja/win/x64/"
+      - "C:/Program Files/lib/lib64/"
+      - "C:/Program Files/lib/lib/x64/"
+      - "C:/Program Files/lib/lib/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/lib64/"
+      - "C:/Program Files/lib/x64/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/lib64/"
+      - "C:/Program Files (x86)/lib/lib/x64/"
+      - "C:/Program Files (x86)/lib/lib/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/lib64/"
+      - "C:/Program Files (x86)/lib/x64/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/lib64/"
+      - "C:/clion/bin/cmake/win/x64/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/lib/"
+      - "C:/clion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/lib/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/lib64/"
+      - "C:/Program Files (x86)/untitled/lib/x64/"
+      - "C:/Program Files (x86)/untitled/lib/"
+      - "C:/Program Files (x86)/untitled/"
+      - "C:/Program Files (x86)/untitled/bin/lib64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/x64/"
+      - "C:/Program Files (x86)/untitled/bin/lib/"
+      - "C:/Program Files (x86)/untitled/bin/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/x64/"
+      - "C:/clion/bin/cmake/win/x64/bin/lib/"
+      - "C:/clion/bin/cmake/win/x64/bin/"
+      - "/bin/lib64/"
+      - "/bin/lib/x64/"
+      - "/bin/lib/"
+      - "/bin/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/x64/"
+      - "C:/Users/michael.allan/Library/Frameworks/lib/"
+      - "C:/Users/michael.allan/Library/Frameworks/"
+      - "/Library/Frameworks/lib64/"
+      - "/Library/Frameworks/lib/x64/"
+      - "/Library/Frameworks/lib/"
+      - "/Library/Frameworks/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/x64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/x64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/sw/lib64/"
+      - "/sw/lib/x64/"
+      - "/sw/lib/"
+      - "/sw/"
+      - "/opt/local/lib64/"
+      - "/opt/local/lib/x64/"
+      - "/opt/local/lib/"
+      - "/opt/local/"
+      - "/opt/csw/lib64/"
+      - "/opt/csw/lib/x64/"
+      - "/opt/csw/lib/"
+      - "/opt/csw/"
+      - "/opt/lib64/"
+      - "/opt/lib/x64/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib64/"
+      - "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/x64/"
+    found: "C:/SDL2-2.32.10/x86_64-w64-mingw32/lib/libSDL2main.a"
+    search_context:
+      ENV{PATH}:
+        - "C:\\clion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Windows\\CCM"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\michael.allan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\clion\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/clion/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/untitled"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/untitled/bin"
+        - "C:/clion/bin/cmake/win/x64/bin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/clion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake_modules/FindSDL2.cmake:123 (FIND_PACKAGE)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l44tz0"
+      binary: "C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l44tz0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/michael.allan/CLionProjects/test_again/cmake_modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l44tz0'
+        
+        Run Build Command(s): C:/clion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b0805/fast
+        C:/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b0805.dir\\build.make CMakeFiles/cmTC_b0805.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l44tz0'
+        Building C object CMakeFiles/cmTC_b0805.dir/src.c.obj
+        C:\\clion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles\\cmTC_b0805.dir\\src.c.obj -c C:\\Users\\michael.allan\\CLionProjects\\test_again\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-l44tz0\\src.c
+        Linking C executable cmTC_b0805.exe
+        C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b0805.dir\\link.txt --verbose=1
+        C:\\clion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_b0805.dir/objects.a
+        C:\\clion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_b0805.dir/objects.a @CMakeFiles\\cmTC_b0805.dir\\objects1.rsp
+        C:\\clion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_b0805.dir/objects.a -Wl,--no-whole-archive -o cmTC_b0805.exe -Wl,--out-implib,libcmTC_b0805.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b0805.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/michael.allan/CLionProjects/test_again/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-l44tz0'
+        
+      exitCode: 0
+...

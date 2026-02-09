@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/michael.allan/CLionProjects/SDL2_Template/cmake-build-debug",
+  "command": "C:\\clion\\bin\\mingw\\bin\\g++.exe -IC:/SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2 -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\untitled.dir\\main.cpp.obj -c C:\\Users\\michael.allan\\CLionProjects\\SDL2_Template\\main.cpp",
+  "file": "C:/Users/michael.allan/CLionProjects/SDL2_Template/main.cpp",
+  "output": "C:/Users/michael.allan/CLionProjects/SDL2_Template/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+}
+]
