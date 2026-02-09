@@ -78,5 +78,7 @@ int main(int argc, char* argv[]) {
     SDL_DestroyWindow(window);
     SDL_Quit();
 
+	// This is a test!
+
     return 1231230;
 }
