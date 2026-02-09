@@ -80,5 +80,5 @@ int main(int argc, char* argv[]) {
 
 	// This is a test!
 
-    return 1231230;
+    return 0;
 }
